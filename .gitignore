@@ -12,4 +12,10 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+# OSX leaves these everywhere on SMB shares
+._*
+
+# OSX trash
+.DS_Store
